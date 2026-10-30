@@ -1,16 +1,16 @@
-// ============================================================
-//  ТУТ МІНЯЄШ ВЕСЬ КОНТЕНТ. Решту файлів чіпати не обов'язково.
-// ============================================================
 
 export const profile = {
   name: 'Andreiev Vladyslav',                   
-  role: 'Student of Software Engineering',            // ← посада
-  intro: 'Будую системи, які працюють на сервері, а не лише в презентації: від складського обліку до індексації документів.', // ← короткий опис
-  about: [                                  // ← блок «Про мене», кожен рядок — абзац
-    'Тут розкажи про себе: чим займаєшся, що навчаєшся робити, що тебе цікавить.',
-    'Другий абзац: досвід, навчання, цілі.',
+  role: 'Full-stack developer',            
+  intro: 'Third-year student at Lviv Polytechnic. I build web, desktop and cross-platform apps with .NET, Vue.js and Flutter).', 
+  about: [                                  
+    'I am a 3rd-year Software Engineering student at the National University of Lviv Polytechnic. At a spring hackathon, I worked in a team to build LoTaS, a warehouse management application.',
+    'I work with .NET (WPF, Entity Framework Core, ASP.NET, ADO.NET), C++ and JavaScript (Vue.js, React.js, Node.js), and with MS SQL Server and MySQL. I also build cross-platform apps with Flutter and Firebase.',
+    'I am skilled in software requirements engineering, write unit tests (MSTest, xUnit), and I am familiar with SDLC, UML and Git. I have worked with Jira, Confluence, TestRail, ReQtest, GitHub and GitLab, and I use AI tools such as Claude, Gemini, ChatGPT and Grok in my workflow.',
   ],
-  skills: ['C#', 'ASP.NET', 'WPF / MVVM', 'React', 'Vite', 'Flutter', 'Firebase', 'SQL', 'IPC'], // ← стек
+  skills: ['C#', '.NET', 'ASP.NET', 'WPF', 'EF Core', 'ADO.NET', 'C++',
+    'JavaScript', 'React', 'Vue.js', 'Node.js', 'Flutter', 'Firebase',
+    'MS SQL Server', 'MySQL', 'xUnit', 'MSTest', 'UML', 'Git', 'Jira', 'GitHub / GitLab'], 
 }
 
 export const projects = [
