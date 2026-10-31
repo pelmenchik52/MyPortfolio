@@ -77,6 +77,7 @@ function Project({ p, open, onToggle, index }) {
               </div>
             </div>
           </div>
+          <Gallery images={p.images} />
         </div>
       </div>
     </article>
