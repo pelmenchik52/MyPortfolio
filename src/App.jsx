@@ -39,7 +39,21 @@ function Hero() {
     </header>
   )
 }
-
+function Gallery({ images }) {
+  if (!images || !images.length) return null
+  return (
+    <div className="gallery">
+      {images.map((src) => {
+        const url = import.meta.env.BASE_URL + src
+        return (
+          <a key={src} href={url} target="_blank" rel="noreferrer">
+            <img src={url} alt="" loading="lazy" />
+          </a>
+        )
+      })}
+    </div>
+  )
+}
 function Project({ p, open, onToggle, index }) {
   return (
     <article className={'proj' + (open ? ' open' : '')}>

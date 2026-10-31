@@ -72,6 +72,10 @@ h3{font-size:1.6rem;margin:64px 0 20px}
 .contact-list a:hover{background:var(--amber)}
 footer{text-align:center;padding:80px 20px 40px;color:var(--mute);font-size:.9rem}
 
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding-bottom:36px}
+.gallery img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top;border:2px solid var(--ink);border-radius:var(--r);display:block;transition:transform .25s,box-shadow .25s}
+.gallery a:hover img{transform:translate(-3px,-3px);box-shadow:5px 5px 0 var(--blue)}
+
 @media(max-width:720px){
   .proj-head{grid-template-columns:1fr 36px}.proj-tag{display:none}
   .proj-cols,.about{grid-template-columns:1fr}
