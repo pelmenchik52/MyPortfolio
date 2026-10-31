@@ -19,9 +19,9 @@ function Hero() {
       <div className="grid" />
       <div className="grid hot" />
       <nav>
-        <a href="#projects">Проекти</a>
-        <a href="#about">Про мене</a>
-        <a href="#contact">Контакти</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About me</a>
+        <a href="#contact">Contact</a>
       </nav>
       <div className="hero-body">
         <p className="role">{profile.role}</p>
@@ -76,11 +76,11 @@ export default function App() {
       <Hero />
       <main>
         <section id="projects">
-          <h2>Проекти</h2>
+          <h2>Projects</h2>
           {projects.map((p, i) => (
             <Project key={p.title} p={p} index={i} open={open === i} onToggle={() => setOpen(open === i ? -1 : i)} />
           ))}
-          <h3>Менші роботи</h3>
+          <h3>Smaller projects</h3>
           <div className="small">
             {small.map((s) => (
               <a className="card" key={s.title} href={s.href} target="_blank" rel="noreferrer">
@@ -93,7 +93,7 @@ export default function App() {
         </section>
 
         <section id="about" className="about">
-          <h2>Про мене</h2>
+          <h2>About me</h2>
           <div>
             {profile.about.map((t, i) => <p key={i}>{t}</p>)}
             <div className="chips big">{profile.skills.map((s) => <span key={s}>{s}</span>)}</div>
@@ -101,7 +101,7 @@ export default function App() {
         </section>
 
         <section id="contact">
-          <h2>Контакти</h2>
+          <h2>Contact</h2>
           <div className="contact-list">
             {contacts.map((c) => <a key={c.label} href={c.href} target="_blank" rel="noreferrer">{c.label}</a>)}
           </div>
