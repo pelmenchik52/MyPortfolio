@@ -16,57 +16,61 @@ export const profile = {
 export const projects = [
   {
     title: 'LoTaS',
-    tag: 'Керування складами',
-    status: 'MVP · працює на сервері',     // ← статус
-    stack: ['ASP.NET', 'React', 'Vite', 'SQL'],
-    text: 'Повноцінний MVP для керування складами та прийому товарів: бекенд, база даних і фронтенд, розгорнуті на сервері.',
-    points: [                                // ← ключові можливості
-      'Облік складів і залишків',
-      'Прийом товарів',
-      'REST API на ASP.NET',
-      'Клієнт на React + Vite',
+    tag: 'Warehouse management system',
+    status: 'Team MVP · Spring hackathon', 
+    role: 'Backend developer & DevOps',
+    stack: ['ASP.NET', 'React', 'Vite', 'TypeScript' 'SQL', 'Docker'],
+    text: 'A warehouse management and goods receiving MVP built by a team at a spring hackathon. I worked on the backend and the DevOps side: the ASP.NET API and the Docker setup that runs the backend, database and frontend together on a server.',
+    points: [                             
+      'REST API on ASP.NET',
+      'Database design and data access',
+      'Dockerized deployment of backend, database and frontend',
+      'Server deployment and environment setup',
     ],
     links: [
-      { label: 'Відкрити демо', href: '#' },   // ← посилання на живий сайт
-      { label: 'GitHub', href: '#' },          // ← репозиторій
+      { label: 'Team demo video', href: '#' },   
+      { label: 'GitHub & setup guide', href: 'https://github.com/pelmenchik52/LoTaS.git' },     
     ],
   },
   {
-    title: 'Індексатор документів',
-    tag: 'Пошук і кластеризація',
-    status: 'Десктоп · WPF',
+    title: 'DocIndex',
+    tag: 'Search and clustering',
+    status: 'Desktop · WPF',
     stack: ['C#', 'WPF', 'MVVM'],
-    text: 'Застосунок індексує документи, кластеризує їх, шукає найподібніші та рахує вагу слів.',
+    text: 'The application indexes documents, clusters them, finds the most similar ones, and calculates word weights.',
     points: [
-      'Індексація та вага слів',
-      'Кластеризація документів',
-      'Пошук найподібніших',
-      'Патерни Command, Singleton та ін.',
+      'Indexing and Word Weight',
+      'Document Clustering',
+      'Search for the most similar',
+      'Command, Singleton, and other GoF patterns.',
     ],
     links: [{ label: 'GitHub', href: '#' }],
   },
   {
     title: 'Flutter + Firebase',
-    tag: 'Веб-застосунок',
-    status: 'У розробці',
+    tag: 'Web-application',
+    status: 'In progress',
     stack: ['Flutter', 'Firebase Auth', 'Web'],
-    text: 'Є бекенд, авторизація через Firebase Auth і весь функціонал. Залишилось довести збереження даних.',
+    text: 'A Flutter web app with Firebase Auth login and a complete interface. Errors and crashes are tracked with Sentry. Persistent data storage is the next updates.',
     points: [
-      'Авторизація через Firebase Auth',
-      'Повний функціонал інтерфейсу',
-      'Збереження даних — наступний крок',
+      'Authentication with Firebase Auth',
+      'Error and crash tracking with Sentry',
+      'Full UI and app functionality',
+      'Persistent data storage (in progress)  ',
     ],
-    links: [{ label: 'GitHub', href: '#' }],
+    links: [{ label: 'GitHub', href: 'https://github.com/pelmenchik52/pantry_app.git' }],
   },
 ]
 
 export const small = [
-  { title: 'Таємний Санта', text: 'Взаємодія процесів через канали (pipes) і спільну памʼять — IPC.', stack: ['IPC', 'Pipes', 'Shared memory'], href: '#' },
-  // ← додавай ще дрібні проекти за цим зразком
+  { title: 'RiskManager', text: 'Application for risk management: creating risks, their priority, calculating price of every risk and more', stack: ['C#', '.NET 8', 'WPF'], href: 'https://github.com/pelmenchik52/RiskManager.git' },
+
 ]
 
 export const contacts = [
-  { label: 'GitHub', href: 'https://github.com/твій-нік' },     // ← твої посилання
-  { label: 'Email', href: 'mailto:you@example.com' },
-  { label: 'LinkedIn', href: '#' },
+  { label: 'GitHub', href: 'https://github.com/pelmenchik52' },     // ← твої посилання
+  { label: 'Email', href: 'vladzo16092006@gmail.com' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/владислав-андреєв-b6962b336?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
+  { label: 'Telegram', href: 'https://t.me/vladzoa'},
+  { label: 'Facebook', href: 'https://www.facebook.com/share/19tvvXT3Kr/'}
 ]
