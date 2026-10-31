@@ -60,7 +60,7 @@ export const projects = [
     ],
   },
   {
-    title: 'Flutter + Firebase',
+    title: 'Home pantry',
     tag: 'Web-application',
     status: 'In progress',
     stack: ['Flutter', 'Firebase Auth', 'Web'],
@@ -73,12 +73,11 @@ export const projects = [
     ],
     links: [{ label: 'GitHub', href: 'https://github.com/pelmenchik52/pantry_app.git' }],
     images: [
-       'screens/auth-window.png',
-       'screens/accountant-main-window.png',
-       'screens/admin-main-window.png',
-       'screens/manager-main-window.png',
-       'screens/warehouser-main-window.png'
-      ],
+      'screens/pantry-auth-window.png',
+      'screens/pantry-main-window.png',
+      'screens/pantry-add-product.png',
+      'screens/pantry-profile-window.png',
+    ],
   },
 ]
 
