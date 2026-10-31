@@ -19,7 +19,7 @@ export const projects = [
     tag: 'Warehouse management system',
     status: 'Team MVP · Spring hackathon', 
     role: 'Backend developer & DevOps',
-    stack: ['ASP.NET', 'React', 'Vite', 'TypeScript' 'SQL', 'Docker'],
+    stack: ['ASP.NET', 'React', 'Vite', 'TypeScript', 'SQL', 'Docker'],
     text: 'A warehouse management and goods receiving MVP built by a team at a spring hackathon. I worked on the backend and the DevOps side: the ASP.NET API and the Docker setup that runs the backend, database and frontend together on a server.',
     points: [                             
       'REST API on ASP.NET',
