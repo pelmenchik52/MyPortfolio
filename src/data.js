@@ -51,6 +51,13 @@ export const projects = [
       'Command, Singleton, and other GoF patterns.',
     ],
     links: [{ label: 'GitHub', href: 'https://github.com/pelmenchik52/DocIndex.git' }],
+    images: [
+      'screens/docindex-ready-docs.png',
+      'screens/docindex-simillar-docs.png',
+      'screens/docindex-clustering.png',
+      'screens/docindex-keywords.png',
+      'screens/docindex-statistic.png',
+    ],
   },
   {
     title: 'Flutter + Firebase',
@@ -65,6 +72,13 @@ export const projects = [
       'Persistent data storage (in progress)  ',
     ],
     links: [{ label: 'GitHub', href: 'https://github.com/pelmenchik52/pantry_app.git' }],
+    images: [
+       'screens/auth-window.png',
+       'screens/accountant-main-window.png',
+       'screens/admin-main-window.png',
+       'screens/manager-main-window.png',
+       'screens/warehouser-main-window.png'
+      ],
   },
 ]
 
