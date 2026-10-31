@@ -68,7 +68,7 @@ export const small = [
 ]
 
 export const contacts = [
-  { label: 'GitHub', href: 'https://github.com/pelmenchik52' },     // ← твої посилання
+  { label: 'GitHub', href: 'https://github.com/pelmenchik52' },     
   { label: 'Email', href: 'vladzo16092006@gmail.com' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/владислав-андреєв-b6962b336?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
   { label: 'Telegram', href: 'https://t.me/vladzoa'},
