@@ -30,7 +30,8 @@ export const projects = [
     links: [
       { label: 'GitHub & setup guide', href: 'https://github.com/pelmenchik52/LoTaS.git' },     
     ],
-    images: ['public/screens/auth-window.png',
+    images: [
+       'screens/auth-window.png',
        'screens/accountant-main-window.png',
        'screens/admin-main-window.png',
        'screens/manager-main-window.png',
